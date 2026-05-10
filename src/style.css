@@ -1,0 +1,298 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color:black;
+    
+}
+
+.container {
+    max-width: 1400px;
+    margin:auto;
+    text-align: center;
+    
+}
+   
+.img-square {
+    width: 800px;
+    height: 700px;
+    padding: 37px 0;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 64px;
+    grid-template-columns: 1fr;
+            
+}
+
+.img-responsive {
+    width: 100%;
+    display:block;
+    height: 220px;
+
+}
+
+
+.embed {
+    width:100%;
+    aspect-ratio: 1/1;
+    
+
+}
+
+.grid-2-columns {
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.grid-3-columns {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-3-columns-with-first-narrow {
+    grid-template-columns: 1fr 2fr 2fr;
+    background: rgb(111, 101, 101);
+    
+}
+
+.grid-3-columns-with-first-narrow a{
+    text-decoration: none;
+    color:white;
+   
+}
+
+.grid-3-columns-with-first-narrow h3 {
+    color: white;
+
+}
+
+.grid-3-columns-with-first-narrow p {
+    color: white;
+}
+
+
+
+.card {
+    background-color: white;
+    margin: 30px 0;
+}
+
+.card-header.grid {
+    grid-gap: 0;
+
+}
+
+.card-body {
+    padding: 0 30px 30px;
+
+}
+
+.card-footer {
+    padding: 30px;
+}
+
+.btn {
+    display:inline-block;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.0;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 20px;
+    background-color: #272044;
+    text-decoration: none;
+
+}
+
+section {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+section.secondary {
+    background:rgb(241, 234, 234);
+
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/havn.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    background-size: cover;
+    text-align: center;
+    padding: 200px 0;
+}
+
+header h1{
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 1.0;
+    margin: 30px 0;
+
+}
+
+header h2{
+    font-weight: 400, bolder;
+    font-size: 40px;
+    line-height: 1.5;
+    margin: 0;
+    
+    
+    
+
+}
+
+header h3{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 0;
+
+}
+
+header a{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    background-color: white;
+    text-decoration: none;
+    color: #272044;   
+    padding: 16px 32px;
+    margin-top: 32px;
+    display: inline-block;
+}
+
+main h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    margin: 0;
+    color: #272044;
+    opacity: 0.3;
+    text-transform: uppercase;
+
+}
+
+main h3 {
+    font-weight:700;
+    font-size: 40px;
+    line-height: 1.5;
+    color: #272044;
+    margin: 0;
+}
+
+main h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.0;
+    color: #272044;
+    margin: 0;
+}
+
+main h5 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.0;
+    color: #272044;
+    margin: 0;
+    padding: 20px 0;
+}
+
+section {
+    padding: 30px;
+}
+
+.instagram-embeds {
+    margin: 30px 0;
+
+}
+
+.instagram-card {
+    background:#FFF;
+    border-radius:3px; 
+    box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15);
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; 
+    padding:1px; 
+}
+
+.instagram-media {
+    width: 100%;
+    margin: 0;
+    min-width: 0;
+    max-width: none;
+    height: 100%;
+}
+
+main p {
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #272044;
+    opacity: 0.7;
+    text-align: justify;
+
+}
+
+
+footer h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #272044;
+}
+
+footer p{
+    font-weight: 480;
+    font-size: 16px;
+    line-height: 1.0;
+    text-align: justify;
+    color: #272044;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media (max-width:960px) {
+header {
+        padding: 60px 0;
+    }
+
+    header h1 {
+        font-size: 48px;
+    }
+
+    header h2 {
+        font-size: 20px;
+
+    }
+
+    header h3 {
+        font-size: 12px;
+    }
+
+}
